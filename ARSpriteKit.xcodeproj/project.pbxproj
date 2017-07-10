@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4231FE41F13099000CBE4C1 /* ghost.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4231FE31F13098200CBE4C1 /* ghost.wav */; };
 		E4D1C0CE1F0BEFC00065E5EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D1C0CD1F0BEFC00065E5EE /* AppDelegate.swift */; };
 		E4D1C0D01F0BEFC00065E5EE /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E4D1C0CF1F0BEFC00065E5EE /* Scene.sks */; };
 		E4D1C0D21F0BEFC00065E5EE /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D1C0D11F0BEFC00065E5EE /* Scene.swift */; };
@@ -14,10 +15,10 @@
 		E4D1C0D71F0BEFC00065E5EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4D1C0D51F0BEFC00065E5EE /* Main.storyboard */; };
 		E4D1C0D91F0BEFC00065E5EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D1C0D81F0BEFC00065E5EE /* Assets.xcassets */; };
 		E4D1C0DC1F0BEFC00065E5EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4D1C0DA1F0BEFC00065E5EE /* LaunchScreen.storyboard */; };
-		E4D1C0E81F0C79A80065E5EE /* ghost.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4D1C0E71F0C79A80065E5EE /* ghost.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E4231FE31F13098200CBE4C1 /* ghost.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ghost.wav; sourceTree = "<group>"; };
 		E4D1C0CA1F0BEFC00065E5EE /* ARSpriteKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARSpriteKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D1C0CD1F0BEFC00065E5EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4D1C0CF1F0BEFC00065E5EE /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
@@ -27,7 +28,6 @@
 		E4D1C0D81F0BEFC00065E5EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4D1C0DB1F0BEFC00065E5EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4D1C0DD1F0BEFC00065E5EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E4D1C0E71F0C79A80065E5EE /* ghost.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ghost.wav; path = ../../../../../Downloads/ghost.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +60,11 @@
 		E4D1C0CC1F0BEFC00065E5EE /* ARSpriteKit */ = {
 			isa = PBXGroup;
 			children = (
+				E4231FE31F13098200CBE4C1 /* ghost.wav */,
 				E4D1C0CD1F0BEFC00065E5EE /* AppDelegate.swift */,
 				E4D1C0CF1F0BEFC00065E5EE /* Scene.sks */,
 				E4D1C0D11F0BEFC00065E5EE /* Scene.swift */,
 				E4D1C0D31F0BEFC00065E5EE /* ViewController.swift */,
-				E4D1C0E71F0C79A80065E5EE /* ghost.wav */,
 				E4D1C0D51F0BEFC00065E5EE /* Main.storyboard */,
 				E4D1C0D81F0BEFC00065E5EE /* Assets.xcassets */,
 				E4D1C0DA1F0BEFC00065E5EE /* LaunchScreen.storyboard */,
@@ -133,7 +133,7 @@
 			files = (
 				E4D1C0D01F0BEFC00065E5EE /* Scene.sks in Resources */,
 				E4D1C0DC1F0BEFC00065E5EE /* LaunchScreen.storyboard in Resources */,
-				E4D1C0E81F0C79A80065E5EE /* ghost.wav in Resources */,
+				E4231FE41F13099000CBE4C1 /* ghost.wav in Resources */,
 				E4D1C0D91F0BEFC00065E5EE /* Assets.xcassets in Resources */,
 				E4D1C0D71F0BEFC00065E5EE /* Main.storyboard in Resources */,
 			);
@@ -284,7 +284,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ARSpriteKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.ARSpriteKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.ARSpriteKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,7 +298,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ARSpriteKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.ARSpriteKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.ARSpriteKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
