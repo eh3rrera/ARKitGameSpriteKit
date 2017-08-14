@@ -1,12 +1,12 @@
 # ARKitGameSpriteKit
-Simple AR game made with ARKit and SpriteKit. Follow the tutorial at the Pusher blog.
+Simple AR game made with ARKit and SpriteKit. Follow the tutorial at [Pusher's blog](https://blog.pusher.com/building-ar-game-arkit-spritekit/).
 
 [![ARKit with SpriteKit game](https://img.youtube.com/vi/0mmaLiuYAho/0.jpg)](http://www.youtube.com/watch?v=0mmaLiuYAho)
 
 
 # Requirements
 
-- Xcode 9 (Beta 2 at least)
+- Xcode 9 (Beta 5 at least)
 - iOS 11
 - An iOS device with an A9 or better processor (iPhone 6s or superior, iPad Pro, iPad 2017)
 
